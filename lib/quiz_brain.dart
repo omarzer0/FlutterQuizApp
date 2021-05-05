@@ -3,11 +3,11 @@ import 'package:flutter_quiz_app/pojo/question.dart';
 class QuizBrain {
   int _questionNumber = 0;
   List<Question> _questionsList = [
-    Question("1 + 1 = ?", "1", "2", "3", "4", 4),
+    Question("1 + 1 = ?", "1", "2", "3", "4", 2),
     Question("What language is used to make this app?", "flutter", "dart",
-        "java", "swift", 4),
+        "java", "swift", 2),
     Question("What is the smallest country in the world", "Vatican City",
-        "Ben Nevis", "Damietta", "Santiago", 4),
+        "Ben Nevis", "Damietta", "Santiago", 1),
     Question(
         "If tell you that the correct answer is 4 will you believe me? hum... let's see",
         "1",
